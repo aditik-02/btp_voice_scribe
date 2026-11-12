@@ -1,0 +1,432 @@
+{
+  "primock57": {
+    "dataset_name": "primock57",
+    "root_path": "voice_scribe_data/primock57",
+    "total_files": 331,
+    "total_size_bytes": 2011875851,
+    "extension_counts": {
+      ".md": 8,
+      "(no ext)": 3,
+      ".textgrid": 114,
+      ".wav": 114,
+      ".json": 58,
+      ".py": 3,
+      ".txt": 1,
+      ".sh": 1,
+      ".csv": 2,
+      ".xlsx": 27
+    },
+    "extension_sizes": {
+      ".md": 28069,
+      "(no ext)": 10331,
+      ".textgrid": 1725937,
+      ".wav": 1989491736,
+      ".json": 12335777,
+      ".py": 6379,
+      ".txt": 26,
+      ".sh": 428,
+      ".csv": 7519786,
+      ".xlsx": 757382
+    },
+    "audio_files_count": 114,
+    "transcript_files_count": 114,
+    "metadata_files_count": 96,
+    "parquet_files": [],
+    "parquet_records": 0,
+    "audio_properties": {
+      "sample_rates": {
+        "16000": 114
+      },
+      "channels": {
+        "1": 114
+      },
+      "subtypes": {
+        "PCM_16": 114
+      },
+      "formats": {
+        "WAV": 114
+      }
+    }
+  },
+  "eka_medical_asr": {
+    "dataset_name": "eka_medical_asr",
+    "root_path": "voice_scribe_data/eka_medical_asr",
+    "total_files": 40,
+    "total_size_bytes": 281415817,
+    "extension_counts": {
+      "(no ext)": 3,
+      ".md": 1,
+      ".json": 2,
+      ".parquet": 9,
+      ".tag": 1,
+      ".metadata": 12,
+      ".lock": 12
+    },
+    "extension_sizes": {
+      "(no ext)": 12706,
+      ".md": 7810,
+      ".json": 3786,
+      ".parquet": 281389911,
+      ".tag": 191,
+      ".metadata": 1413,
+      ".lock": 0
+    },
+    "audio_files_count": 0,
+    "transcript_files_count": 0,
+    "metadata_files_count": 3,
+    "parquet_files": [
+      "hi/test-00000.parquet",
+      "en/test-00000.parquet",
+      "en/test-00001.parquet",
+      "en/test-00003.parquet",
+      "en/test-00002.parquet",
+      "en/test-00007.parquet",
+      "en/test-00006.parquet",
+      "en/test-00004.parquet",
+      "en/test-00005.parquet"
+    ],
+    "parquet_records": 3939,
+    "audio_properties": {
+      "sample_rates": {},
+      "channels": {},
+      "subtypes": {},
+      "formats": {}
+    },
+    "parquet_details": [
+      {
+        "file": "hi/test-00000.parquet",
+        "rows": 320,
+        "size_bytes": 44625902,
+        "columns": [
+          "md5_text",
+          "file_name",
+          "audio",
+          "md5_audio",
+          "duration",
+          "text",
+          "audio_language",
+          "text_language",
+          "session_id",
+          "speaker",
+          "type_concept",
+          "recording_context",
+          "medical_entities"
+        ],
+        "schema": "md5_text: string\nfile_name: string\naudio: binary\nmd5_audio: string\nduration: double\ntext: string\naudio_language: string\ntext_language: string\nsession_id: string\nspeaker: string\ntype_concept: string\nrecording_context: string\nmedical_entities: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1638"
+      },
+      {
+        "file": "en/test-00000.parquet",
+        "rows": 500,
+        "size_bytes": 23036046,
+        "columns": [
+          "md5_text",
+          "file_name",
+          "audio",
+          "md5_audio",
+          "duration",
+          "text",
+          "audio_language",
+          "text_language",
+          "session_id",
+          "speaker",
+          "type_concept",
+          "recording_context",
+          "medical_entities"
+        ],
+        "schema": "md5_text: string\nfile_name: string\naudio: binary\nmd5_audio: string\nduration: double\ntext: string\naudio_language: string\ntext_language: string\nsession_id: string\nspeaker: string\ntype_concept: string\nrecording_context: string\nmedical_entities: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1638"
+      },
+      {
+        "file": "en/test-00001.parquet",
+        "rows": 500,
+        "size_bytes": 14153038,
+        "columns": [
+          "md5_text",
+          "file_name",
+          "audio",
+          "md5_audio",
+          "duration",
+          "text",
+          "audio_language",
+          "text_language",
+          "session_id",
+          "speaker",
+          "type_concept",
+          "recording_context",
+          "medical_entities"
+        ],
+        "schema": "md5_text: string\nfile_name: string\naudio: binary\nmd5_audio: string\nduration: double\ntext: string\naudio_language: string\ntext_language: string\nsession_id: string\nspeaker: string\ntype_concept: string\nrecording_context: string\nmedical_entities: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1638"
+      },
+      {
+        "file": "en/test-00003.parquet",
+        "rows": 500,
+        "size_bytes": 14047077,
+        "columns": [
+          "md5_text",
+          "file_name",
+          "audio",
+          "md5_audio",
+          "duration",
+          "text",
+          "audio_language",
+          "text_language",
+          "session_id",
+          "speaker",
+          "type_concept",
+          "recording_context",
+          "medical_entities"
+        ],
+        "schema": "md5_text: string\nfile_name: string\naudio: binary\nmd5_audio: string\nduration: double\ntext: string\naudio_language: string\ntext_language: string\nsession_id: string\nspeaker: string\ntype_concept: string\nrecording_context: string\nmedical_entities: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1638"
+      },
+      {
+        "file": "en/test-00002.parquet",
+        "rows": 500,
+        "size_bytes": 14350013,
+        "columns": [
+          "md5_text",
+          "file_name",
+          "audio",
+          "md5_audio",
+          "duration",
+          "text",
+          "audio_language",
+          "text_language",
+          "session_id",
+          "speaker",
+          "type_concept",
+          "recording_context",
+          "medical_entities"
+        ],
+        "schema": "md5_text: string\nfile_name: string\naudio: binary\nmd5_audio: string\nduration: double\ntext: string\naudio_language: string\ntext_language: string\nsession_id: string\nspeaker: string\ntype_concept: string\nrecording_context: string\nmedical_entities: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1638"
+      },
+      {
+        "file": "en/test-00007.parquet",
+        "rows": 119,
+        "size_bytes": 15824483,
+        "columns": [
+          "md5_text",
+          "file_name",
+          "audio",
+          "md5_audio",
+          "duration",
+          "text",
+          "audio_language",
+          "text_language",
+          "session_id",
+          "speaker",
+          "type_concept",
+          "recording_context",
+          "medical_entities"
+        ],
+        "schema": "md5_text: string\nfile_name: string\naudio: binary\nmd5_audio: string\nduration: double\ntext: string\naudio_language: string\ntext_language: string\nsession_id: string\nspeaker: string\ntype_concept: string\nrecording_context: string\nmedical_entities: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1638"
+      },
+      {
+        "file": "en/test-00006.parquet",
+        "rows": 500,
+        "size_bytes": 63108235,
+        "columns": [
+          "md5_text",
+          "file_name",
+          "audio",
+          "md5_audio",
+          "duration",
+          "text",
+          "audio_language",
+          "text_language",
+          "session_id",
+          "speaker",
+          "type_concept",
+          "recording_context",
+          "medical_entities"
+        ],
+        "schema": "md5_text: string\nfile_name: string\naudio: binary\nmd5_audio: string\nduration: double\ntext: string\naudio_language: string\ntext_language: string\nsession_id: string\nspeaker: string\ntype_concept: string\nrecording_context: string\nmedical_entities: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1638"
+      },
+      {
+        "file": "en/test-00004.parquet",
+        "rows": 500,
+        "size_bytes": 32050118,
+        "columns": [
+          "md5_text",
+          "file_name",
+          "audio",
+          "md5_audio",
+          "duration",
+          "text",
+          "audio_language",
+          "text_language",
+          "session_id",
+          "speaker",
+          "type_concept",
+          "recording_context",
+          "medical_entities"
+        ],
+        "schema": "md5_text: string\nfile_name: string\naudio: binary\nmd5_audio: string\nduration: double\ntext: string\naudio_language: string\ntext_language: string\nsession_id: string\nspeaker: string\ntype_concept: string\nrecording_context: string\nmedical_entities: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1638"
+      },
+      {
+        "file": "en/test-00005.parquet",
+        "rows": 500,
+        "size_bytes": 60194999,
+        "columns": [
+          "md5_text",
+          "file_name",
+          "audio",
+          "md5_audio",
+          "duration",
+          "text",
+          "audio_language",
+          "text_language",
+          "session_id",
+          "speaker",
+          "type_concept",
+          "recording_context",
+          "medical_entities"
+        ],
+        "schema": "md5_text: string\nfile_name: string\naudio: binary\nmd5_audio: string\nduration: double\ntext: string\naudio_language: string\ntext_language: string\nsession_id: string\nspeaker: string\ntype_concept: string\nrecording_context: string\nmedical_entities: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1638"
+      }
+    ]
+  },
+  "svarah": {
+    "dataset_name": "svarah",
+    "root_path": "voice_scribe_data/svarah",
+    "total_files": 18,
+    "total_size_bytes": 1095007304,
+    "extension_counts": {
+      ".md": 1,
+      "(no ext)": 2,
+      ".parquet": 3,
+      ".tag": 1,
+      ".json": 1,
+      ".metadata": 5,
+      ".lock": 5
+    },
+    "extension_sizes": {
+      ".md": 4297,
+      "(no ext)": 2462,
+      ".parquet": 1094998590,
+      ".tag": 191,
+      ".json": 1190,
+      ".metadata": 574,
+      ".lock": 0
+    },
+    "audio_files_count": 0,
+    "transcript_files_count": 0,
+    "metadata_files_count": 2,
+    "parquet_files": [
+      "data/test-00002-of-00003.parquet",
+      "data/test-00001-of-00003.parquet",
+      "data/test-00000-of-00003.parquet"
+    ],
+    "parquet_records": 6656,
+    "audio_properties": {
+      "sample_rates": {},
+      "channels": {},
+      "subtypes": {},
+      "formats": {}
+    },
+    "parquet_details": [
+      {
+        "file": "data/test-00002-of-00003.parquet",
+        "rows": 2218,
+        "size_bytes": 369542701,
+        "columns": [
+          "audio_filepath",
+          "duration",
+          "text",
+          "gender",
+          "age-group",
+          "primary_language",
+          "native_place_state",
+          "native_place_district",
+          "highest_qualification",
+          "job_category",
+          "occupation_domain"
+        ],
+        "schema": "audio_filepath: struct<bytes: binary, path: string>\n  child 0, bytes: binary\n  child 1, path: string\nduration: double\ntext: string\ngender: string\nage-group: string\nprimary_language: string\nnative_place_state: string\nnative_place_district: string\nhighest_qualification: string\njob_category: string\noccupation_domain: string\n-- schema metadata --\nhuggingface: '{\"info\": {\"features\": {\"audio_filepath\": {\"_type\": \"Audio\"}' + 566"
+      },
+      {
+        "file": "data/test-00001-of-00003.parquet",
+        "rows": 2219,
+        "size_bytes": 360392442,
+        "columns": [
+          "audio_filepath",
+          "duration",
+          "text",
+          "gender",
+          "age-group",
+          "primary_language",
+          "native_place_state",
+          "native_place_district",
+          "highest_qualification",
+          "job_category",
+          "occupation_domain"
+        ],
+        "schema": "audio_filepath: struct<bytes: binary, path: string>\n  child 0, bytes: binary\n  child 1, path: string\nduration: double\ntext: string\ngender: string\nage-group: string\nprimary_language: string\nnative_place_state: string\nnative_place_district: string\nhighest_qualification: string\njob_category: string\noccupation_domain: string\n-- schema metadata --\nhuggingface: '{\"info\": {\"features\": {\"audio_filepath\": {\"_type\": \"Audio\"}' + 566"
+      },
+      {
+        "file": "data/test-00000-of-00003.parquet",
+        "rows": 2219,
+        "size_bytes": 365063447,
+        "columns": [
+          "audio_filepath",
+          "duration",
+          "text",
+          "gender",
+          "age-group",
+          "primary_language",
+          "native_place_state",
+          "native_place_district",
+          "highest_qualification",
+          "job_category",
+          "occupation_domain"
+        ],
+        "schema": "audio_filepath: struct<bytes: binary, path: string>\n  child 0, bytes: binary\n  child 1, path: string\nduration: double\ntext: string\ngender: string\nage-group: string\nprimary_language: string\nnative_place_state: string\nnative_place_district: string\nhighest_qualification: string\njob_category: string\noccupation_domain: string\n-- schema metadata --\nhuggingface: '{\"info\": {\"features\": {\"audio_filepath\": {\"_type\": \"Audio\"}' + 566"
+      }
+    ]
+  },
+  "ms_snsd": {
+    "dataset_name": "ms_snsd",
+    "root_path": "voice_scribe_data/ms_snsd",
+    "total_files": 24399,
+    "total_size_bytes": 3071427115,
+    "extension_counts": {
+      ".md": 8,
+      "(no ext)": 2,
+      ".txt": 1,
+      ".cfg": 1,
+      ".py": 2,
+      ".wav": 24374,
+      ".gif": 7,
+      ".html": 2,
+      ".csv": 2
+    },
+    "extension_sizes": {
+      ".md": 9557,
+      "(no ext)": 2365,
+      ".txt": 81,
+      ".cfg": 1415,
+      ".py": 7467,
+      ".wav": 3070985628,
+      ".gif": 377660,
+      ".html": 41251,
+      ".csv": 1691
+    },
+    "audio_files_count": 24374,
+    "transcript_files_count": 0,
+    "metadata_files_count": 12,
+    "parquet_files": [],
+    "parquet_records": 0,
+    "audio_properties": {
+      "sample_rates": {
+        "16000": 250
+      },
+      "channels": {
+        "1": 250
+      },
+      "subtypes": {
+        "PCM_16": 250
+      },
+      "formats": {
+        "WAV": 250
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+,dev %,all %
+any digit,49.5,47.6
+"digit + unit (mg, ml, mcg, g, iu)",20.1,20.5
+"ordinal (3rd, 22nd)",0.1,0.2
+number written as a word,4.9,3.9
+once / twice / thrice,0.3,0.7
+"dosing abbreviation (OD, BD, TDS, SOS)",0.5,0.6
+"drug name containing digits (Dolo 650), from entity tags",33.2,32.8

@@ -1,0 +1,82 @@
+{
+  "primock57": {
+    "dataset": "primock57",
+    "total_consultations": 57,
+    "total_audio_tracks": 114,
+    "corrupted_audio_files": 0,
+    "missing_speaker_pairs": 0,
+    "missing_textgrid_pairs": 0,
+    "missing_clinical_notes": 0,
+    "track_duration_sync": {
+      "max_difference_seconds": 0.06000000000005912,
+      "mean_difference_seconds": 0.02000000000000375
+    },
+    "speaker_role_separation": "Separated physical microphone channels (Channel 1 = Doctor, Channel 2 = Patient). Ground-truth role attribution available.",
+    "limitations": [
+      "Accents are exclusively British General Practice (UK RP / Regional UK), lacking Indian English phonology.",
+      "Recordings are simulated (mock) primary care visits by standardized patients and physicians, not live hospital wards.",
+      "Microphone bleed: Although recorded on separate channels, acoustic room cross-talk is detectable during loud speech."
+    ]
+  },
+  "eka_medical_asr": {
+    "dataset": "eka_medical_asr",
+    "total_verified_records_en": 3619,
+    "missing_text_count": 0,
+    "missing_audio_count": 0,
+    "short_clips_under_3s": 565,
+    "short_clips_under_3s_pct": 15.612047526941145,
+    "speaker_concentration": {
+      "top_1_speaker_pct": 15.390991986736669,
+      "top_3_speakers_pct": 39.59657363912683
+    },
+    "recording_context_imbalance": {
+      "conversation": 110,
+      "narration_entity": 2206,
+      "narration_sentence": 1303
+    },
+    "type_concept_imbalance": {
+      "misc_medical": 396,
+      "clinical_findings": 962,
+      "advices": 201,
+      "drugs": 1766,
+      "diagnostics": 294
+    },
+    "limitations": [
+      "61% of clips are isolated single medical terms (narration_entity), not natural conversational turns.",
+      "Only 3.0% (110 clips) are multi-party conversational dialogues.",
+      "High speaker concentration: The top 3 speakers contribute over 39.6% of all English evaluation audio.",
+      "Speaker IDs are internal corporate emails or hashes; no demographic data (gender, regional state) is provided."
+    ]
+  },
+  "svarah": {
+    "dataset": "svarah",
+    "total_verified_records": 6656,
+    "missing_text_count": 0,
+    "missing_audio_count": 0,
+    "gender_ratio": {
+      "Female": 3579,
+      "Male": 3077
+    },
+    "state_representation_count": 17,
+    "language_representation_count": 19,
+    "limitations": [
+      "Zero clinical relevance: Transcripts consist of general Indian English (geography, monuments, civics).",
+      "Single speaker read / spontaneous speech: No doctor-patient dialogue, no turn-taking, no speaker overlap.",
+      "Short utterance segments (mean duration 5.2s, max 29.8s), cannot be used to evaluate continuous consultation transcription."
+    ]
+  },
+  "ms_snsd": {
+    "dataset": "ms_snsd",
+    "noise_train_files": 128,
+    "noise_test_files": 51,
+    "clean_test_files": 1100,
+    "train_categories_count": 28,
+    "test_categories_count": 9,
+    "clinical_relevance_assessment": "Contains essential acoustic noise profiles (babble, HVAC, typing, door shuts, traffic) that directly map to Indian Outpatient Departments (OPD).",
+    "limitations": [
+      "Noise samples were recorded in controlled acoustic environments (offices, cafes, airports), not inside real Indian government hospital OPDs.",
+      "Does not contain authentic Indian hospital intercom announcements or clinical equipment alarms (ECG beeps, ventilator hums).",
+      "Clean speech portion is LibriSpeech audiobooks (not clinical consultations)."
+    ]
+  }
+}

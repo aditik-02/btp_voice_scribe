@@ -1,0 +1,254 @@
+candidate_id,claim,value,evidence_url,retrieved_at,how_verified,confidence
+primock57,dataset_name,PriMock57: A Dataset of Primary Care Mock Consultations,https://github.com/babylonhealth/primock57,2026-10-18T10:15:00Z,readme,1.0
+primock57,audio_available,True,https://media.githubusercontent.com/media/babylonhealth/primock57/main/audio/day1_consultation01_doctor.wav,2026-10-18T10:15:00Z,page,1.0
+primock57,audio_hours,8.63,https://raw.githubusercontent.com/babylonhealth/primock57/main/audio/README.md,2026-10-18T10:15:00Z,readme,1.0
+primock57,format,WAV 16kHz 16-bit,https://raw.githubusercontent.com/babylonhealth/primock57/main/audio/README.md,2026-10-18T10:15:00Z,readme,1.0
+primock57,sample_rate_hz,16000,https://raw.githubusercontent.com/babylonhealth/primock57/main/audio/README.md,2026-10-18T10:15:00Z,readme,1.0
+primock57,speaker_count,"64 (7 doctors, 57 patients)",https://raw.githubusercontent.com/babylonhealth/primock57/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+primock57,has_role_labels,True (doctor and patient isolated channels),https://raw.githubusercontent.com/babylonhealth/primock57/main/audio/README.md,2026-10-18T10:15:00Z,readme,1.0
+primock57,has_timestamps,True (TextGrid format xmin xmax),https://raw.githubusercontent.com/babylonhealth/primock57/main/transcripts/README.md,2026-10-18T10:15:00Z,readme,1.0
+primock57,license,CC-BY-4.0,https://raw.githubusercontent.com/babylonhealth/primock57/main/LICENSE.md,2026-10-18T10:15:00Z,page,1.0
+primock57,access_type,open,https://github.com/babylonhealth/primock57,2026-10-18T10:15:00Z,page,1.0
+primock57,citation,"Korfiatis et al., ACL 2022 / arXiv:2204.00333",https://arxiv.org/abs/2204.00333,2026-10-18T10:15:00Z,paper,1.0
+medial_speech,dataset_name,MeDial-Speech: Robot-Patient and Doctor-Patient Medical Dialogues,https://huggingface.co/datasets/hcuayahu/MeDial-Speech,2026-10-18T10:15:00Z,readme,1.0
+medial_speech,audio_available,True,https://huggingface.co/datasets/hcuayahu/MeDial-Speech,2026-10-18T10:15:00Z,api,1.0
+medial_speech,audio_hours,111.0,https://arxiv.org/abs/2605.26747,2026-10-18T10:15:00Z,paper,1.0
+medial_speech,format,WAV,https://huggingface.co/datasets/hcuayahu/MeDial-Speech/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+medial_speech,sample_rate_hz,16000,https://arxiv.org/abs/2605.26747,2026-10-18T10:15:00Z,paper,0.9
+medial_speech,speaker_count,"Multi-speaker (Doctors, Patients, Robot VP)",https://arxiv.org/abs/2605.26747,2026-10-18T10:15:00Z,paper,1.0
+medial_speech,has_role_labels,True ([DOCTOR] and [PATIENT] explicit turn tags),https://huggingface.co/datasets/hcuayahu/MeDial-Speech,2026-10-18T10:15:00Z,api,1.0
+medial_speech,has_timestamps,True (speech segmentation annotation files),https://huggingface.co/datasets/hcuayahu/MeDial-Speech/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+medial_speech,license,CC-BY-NC-4.0,https://huggingface.co/datasets/hcuayahu/MeDial-Speech/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+medial_speech,access_type,open,https://huggingface.co/datasets/hcuayahu/MeDial-Speech,2026-10-18T10:15:00Z,api,1.0
+medial_speech,citation,"Cuayahuitl & Jang, IEEE ICASSP 2026 / arXiv:2605.26747",https://arxiv.org/abs/2605.26747,2026-10-18T10:15:00Z,paper,1.0
+synth_dopaco,dataset_name,BeTraC 2026 - Synth-DoPaCo Audio Dataset,https://huggingface.co/datasets/Play-Your-Part/Synth-DoPaCo,2026-10-18T10:15:00Z,readme,1.0
+synth_dopaco,audio_available,True,https://huggingface.co/datasets/Play-Your-Part/Synth-DoPaCo,2026-10-18T10:15:00Z,api,1.0
+synth_dopaco,audio_hours,1329.0,https://arxiv.org/abs/2604.06138,2026-10-18T10:15:00Z,paper,1.0
+synth_dopaco,format,Opus in WebDataset TAR shards,https://huggingface.co/datasets/Play-Your-Part/Synth-DoPaCo/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+synth_dopaco,sample_rate_hz,16000,https://huggingface.co/datasets/Play-Your-Part/Synth-DoPaCo/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+synth_dopaco,speaker_count,Synthetic Doctor and Patient voice personas (8800 dialogs),https://huggingface.co/datasets/Play-Your-Part/Synth-DoPaCo/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+synth_dopaco,has_role_labels,True (turn-level doctor/patient dialog metadata),https://huggingface.co/datasets/Play-Your-Part/Synth-DoPaCo/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+synth_dopaco,has_timestamps,True (dialog turns and alignment metadata),https://huggingface.co/datasets/Play-Your-Part/Synth-DoPaCo/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+synth_dopaco,license,CC-BY-4.0,https://huggingface.co/datasets/Play-Your-Part/Synth-DoPaCo/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+synth_dopaco,access_type,open,https://huggingface.co/datasets/Play-Your-Part/Synth-DoPaCo,2026-10-18T10:15:00Z,api,1.0
+synth_dopaco,citation,JSALT 2025 Play-Your-Part Team / arXiv:2604.06138,https://arxiv.org/abs/2604.06138,2026-10-18T10:15:00Z,paper,1.0
+eka_medical_asr,dataset_name,Eka Medical ASR Evaluation Dataset,https://huggingface.co/datasets/ekacare/eka-medical-asr-evaluation-dataset,2026-10-18T10:15:00Z,readme,1.0
+eka_medical_asr,audio_available,True,https://huggingface.co/datasets/ekacare/eka-medical-asr-evaluation-dataset,2026-10-18T10:15:00Z,api,1.0
+eka_medical_asr,audio_hours,6.2,https://huggingface.co/datasets/ekacare/eka-medical-asr-evaluation-dataset/raw/main/README.md,2026-10-18T10:15:00Z,readme,0.95
+eka_medical_asr,format,Parquet embedded WAV 16kHz,https://huggingface.co/datasets/ekacare/eka-medical-asr-evaluation-dataset/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+eka_medical_asr,sample_rate_hz,16000,https://huggingface.co/datasets/ekacare/eka-medical-asr-evaluation-dataset/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+eka_medical_asr,speaker_count,Multiple doctors and medical students across Indian medical colleges,https://huggingface.co/datasets/ekacare/eka-medical-asr-evaluation-dataset/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+eka_medical_asr,has_role_labels,False (Single-speaker medical dictation/utterances),https://huggingface.co/datasets/ekacare/eka-medical-asr-evaluation-dataset/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+eka_medical_asr,has_timestamps,False (Utterance-level text with duration field),https://huggingface.co/datasets/ekacare/eka-medical-asr-evaluation-dataset/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+eka_medical_asr,license,MIT,https://huggingface.co/datasets/ekacare/eka-medical-asr-evaluation-dataset/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+eka_medical_asr,access_type,open,https://huggingface.co/datasets/ekacare/eka-medical-asr-evaluation-dataset,2026-10-18T10:15:00Z,api,1.0
+eka_medical_asr,citation,"Eka Care AI Research, 2024",https://huggingface.co/datasets/ekacare/eka-medical-asr-evaluation-dataset,2026-10-18T10:15:00Z,readme,1.0
+modulate_synthetic_dictation,dataset_name,Synthetic Medical Dictation,https://huggingface.co/datasets/modulate/synthetic-medical-dictation,2026-10-18T10:15:00Z,readme,1.0
+modulate_synthetic_dictation,audio_available,True,https://huggingface.co/datasets/modulate/synthetic-medical-dictation,2026-10-18T10:15:00Z,api,1.0
+modulate_synthetic_dictation,audio_hours,15.0,https://huggingface.co/datasets/modulate/synthetic-medical-dictation/raw/main/README.md,2026-10-18T10:15:00Z,readme,0.9
+modulate_synthetic_dictation,format,WAV / MP3 across 6 acoustic conditions,https://huggingface.co/datasets/modulate/synthetic-medical-dictation/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+modulate_synthetic_dictation,sample_rate_hz,16000,https://huggingface.co/datasets/modulate/synthetic-medical-dictation/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+modulate_synthetic_dictation,speaker_count,28 synthetic Kokoro voices,https://huggingface.co/datasets/modulate/synthetic-medical-dictation/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+modulate_synthetic_dictation,has_role_labels,False (Clinician dictation),https://huggingface.co/datasets/modulate/synthetic-medical-dictation/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+modulate_synthetic_dictation,has_timestamps,False (Scored term recall lists per recording),https://huggingface.co/datasets/modulate/synthetic-medical-dictation/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+modulate_synthetic_dictation,license,CC-BY-4.0,https://huggingface.co/datasets/modulate/synthetic-medical-dictation/raw/main/README.md,2026-10-18T10:15:00Z,readme,1.0
+modulate_synthetic_dictation,access_type,open,https://huggingface.co/datasets/modulate/synthetic-medical-dictation,2026-10-18T10:15:00Z,api,1.0
+modulate_synthetic_dictation,citation,"Modulate.ai, 2025",https://huggingface.co/datasets/modulate/synthetic-medical-dictation,2026-10-18T10:15:00Z,readme,1.0
+medical_speech_intent,dataset_name,"Medical Speech, Transcription, and Intent",https://huggingface.co/datasets/Shamus/Medical_Speech_Transcription_and_Intent,2026-10-18T10:15:00Z,readme,1.0
+medical_speech_intent,audio_available,True,https://huggingface.co/datasets/Shamus/Medical_Speech_Transcription_and_Intent,2026-10-18T10:15:00Z,api,1.0
+medical_speech_intent,audio_hours,8.5,https://www.kaggle.com/datasets/paultimothymooney/medical-speech-transcription-and-intent,2026-10-18T10:15:00Z,page,1.0
+medical_speech_intent,format,WAV,https://huggingface.co/datasets/Shamus/Medical_Speech_Transcription_and_Intent,2026-10-18T10:15:00Z,api,1.0
+medical_speech_intent,sample_rate_hz,16000,https://www.kaggle.com/datasets/paultimothymooney/medical-speech-transcription-and-intent,2026-10-18T10:15:00Z,page,0.95
+medical_speech_intent,speaker_count,Multiple crowd contributors (~6661 utterances),https://huggingface.co/datasets/Shamus/Medical_Speech_Transcription_and_Intent,2026-10-18T10:15:00Z,api,1.0
+medical_speech_intent,has_role_labels,False (Single patient symptom utterances),https://www.kaggle.com/datasets/paultimothymooney/medical-speech-transcription-and-intent,2026-10-18T10:15:00Z,page,1.0
+medical_speech_intent,has_timestamps,False (Utterance-level transcripts),https://www.kaggle.com/datasets/paultimothymooney/medical-speech-transcription-and-intent,2026-10-18T10:15:00Z,page,1.0
+medical_speech_intent,license,Appen Open Research / Other,https://www.kaggle.com/datasets/paultimothymooney/medical-speech-transcription-and-intent,2026-10-18T10:15:00Z,page,0.9
+medical_speech_intent,access_type,open,https://huggingface.co/datasets/Shamus/Medical_Speech_Transcription_and_Intent,2026-10-18T10:15:00Z,api,1.0
+medical_speech_intent,citation,"Mooney et al. / Appen, 2019",https://www.kaggle.com/datasets/paultimothymooney/medical-speech-transcription-and-intent,2026-10-18T10:15:00Z,page,1.0
+ami_corpus,dataset_name,AMI Meeting Corpus,https://groups.inf.ed.ac.uk/ami/corpus/,2026-10-18T10:15:00Z,page,1.0
+ami_corpus,audio_available,True,https://groups.inf.ed.ac.uk/ami/corpus/,2026-10-18T10:15:00Z,page,1.0
+ami_corpus,audio_hours,100.0,https://groups.inf.ed.ac.uk/ami/corpus/overview.shtml,2026-10-18T10:15:00Z,page,1.0
+ami_corpus,format,"WAV (headset, lapel, array)",https://groups.inf.ed.ac.uk/ami/corpus/annotation.shtml,2026-10-18T10:15:00Z,page,1.0
+ami_corpus,sample_rate_hz,16000,https://groups.inf.ed.ac.uk/ami/corpus/annotation.shtml,2026-10-18T10:15:00Z,page,1.0
+ami_corpus,speaker_count,"4 per meeting, 100+ total",https://groups.inf.ed.ac.uk/ami/corpus/overview.shtml,2026-10-18T10:15:00Z,page,1.0
+ami_corpus,has_role_labels,"False (Corporate meeting roles: PM, UI, ID, ME)",https://groups.inf.ed.ac.uk/ami/corpus/annotation.shtml,2026-10-18T10:15:00Z,page,1.0
+ami_corpus,has_timestamps,True (Detailed word and turn-level timestamps),https://groups.inf.ed.ac.uk/ami/corpus/annotation.shtml,2026-10-18T10:15:00Z,page,1.0
+ami_corpus,license,CC-BY-4.0,https://groups.inf.ed.ac.uk/ami/corpus/,2026-10-18T10:15:00Z,page,1.0
+ami_corpus,access_type,open,https://groups.inf.ed.ac.uk/ami/corpus/,2026-10-18T10:15:00Z,page,1.0
+ami_corpus,citation,"Carletta et al., 2005 / AMI Project",https://groups.inf.ed.ac.uk/ami/corpus/,2026-10-18T10:15:00Z,page,1.0
+voxconverse,dataset_name,VoxConverse Diarisation Dataset,https://github.com/joonson/voxconverse,2026-10-18T10:15:00Z,readme,1.0
+voxconverse,audio_available,True,https://www.robots.ox.ac.uk/~vgg/data/voxconverse/,2026-10-18T10:15:00Z,page,1.0
+voxconverse,audio_hours,50.0,https://github.com/joonson/voxconverse,2026-10-18T10:15:00Z,readme,1.0
+voxconverse,format,WAV,https://github.com/joonson/voxconverse,2026-10-18T10:15:00Z,readme,1.0
+voxconverse,sample_rate_hz,16000,https://github.com/joonson/voxconverse,2026-10-18T10:15:00Z,readme,1.0
+voxconverse,speaker_count,"Multi-speaker (vlogs, panels, talk shows)",https://github.com/joonson/voxconverse,2026-10-18T10:15:00Z,readme,1.0
+voxconverse,has_role_labels,"False (Generic speaker labels spk0, spk1, etc.)",https://github.com/joonson/voxconverse,2026-10-18T10:15:00Z,readme,1.0
+voxconverse,has_timestamps,True (RTTM format timestamps),https://github.com/joonson/voxconverse,2026-10-18T10:15:00Z,readme,1.0
+voxconverse,license,CC-BY-4.0,https://github.com/joonson/voxconverse,2026-10-18T10:15:00Z,readme,1.0
+voxconverse,access_type,open,https://github.com/joonson/voxconverse,2026-10-18T10:15:00Z,readme,1.0
+voxconverse,citation,"Chung et al., Interspeech 2020",https://github.com/joonson/voxconverse,2026-10-18T10:15:00Z,readme,1.0
+dihard3_clinical,dataset_name,Third DIHARD Challenge - Clinical ADOS Subset,https://catalog.ldc.upenn.edu/LDC2022S12,2026-10-18T10:15:00Z,page,1.0
+dihard3_clinical,audio_available,True,https://catalog.ldc.upenn.edu/LDC2022S12,2026-10-18T10:15:00Z,page,1.0
+dihard3_clinical,audio_hours,6.5,https://arxiv.org/abs/2012.01477,2026-10-18T10:15:00Z,paper,0.9
+dihard3_clinical,format,FLAC / WAV 16kHz mono,https://catalog.ldc.upenn.edu/LDC2022S12,2026-10-18T10:15:00Z,page,1.0
+dihard3_clinical,sample_rate_hz,16000,https://catalog.ldc.upenn.edu/LDC2022S12,2026-10-18T10:15:00Z,page,1.0
+dihard3_clinical,speaker_count,"2-3 (Clinician, Child patient, Parent)",https://arxiv.org/abs/2012.01477,2026-10-18T10:15:00Z,paper,1.0
+dihard3_clinical,has_role_labels,True (Clinician vs Patient in ADOS protocol),https://arxiv.org/abs/2012.01477,2026-10-18T10:15:00Z,paper,1.0
+dihard3_clinical,has_timestamps,True (RTTM speaker turn segmentations),https://catalog.ldc.upenn.edu/LDC2022S12,2026-10-18T10:15:00Z,page,1.0
+dihard3_clinical,license,LDC User Agreement / Gated,https://catalog.ldc.upenn.edu/LDC2022S12,2026-10-18T10:15:00Z,page,1.0
+dihard3_clinical,access_type,gated,https://catalog.ldc.upenn.edu/LDC2022S12,2026-10-18T10:15:00Z,page,1.0
+dihard3_clinical,citation,"Ryant et al., Interspeech 2021 / LDC2022S12",https://catalog.ldc.upenn.edu/LDC2022S12,2026-10-18T10:15:00Z,page,1.0
+svarah,dataset_name,Svarah: Indian-Accented English ASR Benchmark,https://huggingface.co/datasets/ai4bharat/Svarah,2026-10-18T10:15:00Z,readme,1.0
+svarah,audio_available,True,https://huggingface.co/datasets/ai4bharat/Svarah,2026-10-18T10:15:00Z,api,1.0
+svarah,audio_hours,9.6,https://huggingface.co/datasets/ai4bharat/Svarah,2026-10-18T10:15:00Z,readme,1.0
+svarah,format,WAV,https://huggingface.co/datasets/ai4bharat/Svarah,2026-10-18T10:15:00Z,readme,1.0
+svarah,sample_rate_hz,16000,https://huggingface.co/datasets/ai4bharat/Svarah,2026-10-18T10:15:00Z,readme,1.0
+svarah,speaker_count,117 speakers across 19 Indian states,https://huggingface.co/datasets/ai4bharat/Svarah,2026-10-18T10:15:00Z,readme,1.0
+svarah,has_role_labels,False (Single speaker read + spontaneous turns),https://huggingface.co/datasets/ai4bharat/Svarah,2026-10-18T10:15:00Z,readme,1.0
+svarah,has_timestamps,False (Utterance-level transcripts),https://huggingface.co/datasets/ai4bharat/Svarah,2026-10-18T10:15:00Z,readme,1.0
+svarah,license,CC-BY-4.0,https://huggingface.co/datasets/ai4bharat/Svarah,2026-10-18T10:15:00Z,readme,1.0
+svarah,access_type,open,https://huggingface.co/datasets/ai4bharat/Svarah,2026-10-18T10:15:00Z,api,1.0
+svarah,citation,"AI4Bharat / Bhashini / MeitY, 2023",https://huggingface.co/datasets/ai4bharat/Svarah,2026-10-18T10:15:00Z,readme,1.0
+indicvoices,dataset_name,IndicVoices: Multilingual Speech Corpus for 22 Indian Languages,https://huggingface.co/datasets/ai4bharat/IndicVoices,2026-10-18T10:15:00Z,readme,1.0
+indicvoices,audio_available,True,https://huggingface.co/datasets/ai4bharat/IndicVoices,2026-10-18T10:15:00Z,api,1.0
+indicvoices,audio_hours,23000.0,https://huggingface.co/datasets/ai4bharat/IndicVoices,2026-10-18T10:15:00Z,readme,0.95
+indicvoices,format,WAV 16kHz,https://huggingface.co/datasets/ai4bharat/IndicVoices,2026-10-18T10:15:00Z,readme,1.0
+indicvoices,sample_rate_hz,16000,https://huggingface.co/datasets/ai4bharat/IndicVoices,2026-10-18T10:15:00Z,readme,1.0
+indicvoices,speaker_count,Tens of thousands of Indian speakers,https://huggingface.co/datasets/ai4bharat/IndicVoices,2026-10-18T10:15:00Z,readme,1.0
+indicvoices,has_role_labels,False (General conversational and extempore),https://huggingface.co/datasets/ai4bharat/IndicVoices,2026-10-18T10:15:00Z,readme,1.0
+indicvoices,has_timestamps,True (Utterance segmentations),https://huggingface.co/datasets/ai4bharat/IndicVoices,2026-10-18T10:15:00Z,readme,1.0
+indicvoices,license,CC-BY-4.0,https://huggingface.co/datasets/ai4bharat/IndicVoices,2026-10-18T10:15:00Z,readme,1.0
+indicvoices,access_type,open,https://huggingface.co/datasets/ai4bharat/IndicVoices,2026-10-18T10:15:00Z,api,1.0
+indicvoices,citation,"AI4Bharat, 2024 / arXiv:2403.07689",https://huggingface.co/datasets/ai4bharat/IndicVoices,2026-10-18T10:15:00Z,readme,1.0
+openslr_mucs2021,dataset_name,MUCS 2021: Multilingual & Code-Switching ASR Challenge (SLR104),https://www.openslr.org/104/,2026-10-18T10:15:00Z,page,1.0
+openslr_mucs2021,audio_available,True,https://www.openslr.org/104/,2026-10-18T10:15:00Z,page,1.0
+openslr_mucs2021,audio_hours,100.0,https://www.openslr.org/104/,2026-10-18T10:15:00Z,page,0.9
+openslr_mucs2021,format,WAV,https://www.openslr.org/104/,2026-10-18T10:15:00Z,page,1.0
+openslr_mucs2021,sample_rate_hz,16000,https://www.openslr.org/104/,2026-10-18T10:15:00Z,page,1.0
+openslr_mucs2021,speaker_count,Hundreds of multilingual Indian speakers,https://www.openslr.org/104/,2026-10-18T10:15:00Z,page,1.0
+openslr_mucs2021,has_role_labels,False (Extempore and conversational code-switching),https://www.openslr.org/104/,2026-10-18T10:15:00Z,page,1.0
+openslr_mucs2021,has_timestamps,True (Utterance alignment transcripts),https://www.openslr.org/104/,2026-10-18T10:15:00Z,page,1.0
+openslr_mucs2021,license,CC BY-SA 4.0,https://www.openslr.org/104/,2026-10-18T10:15:00Z,page,1.0
+openslr_mucs2021,access_type,open,https://www.openslr.org/104/,2026-10-18T10:15:00Z,page,1.0
+openslr_mucs2021,citation,"Diwan et al., Interspeech 2021 / Navana Tech",https://www.openslr.org/104/,2026-10-18T10:15:00Z,page,1.0
+openslr_hindi1111,dataset_name,Gram Vaani 1111 Hours Hindi ASR Challenge (SLR118),https://www.openslr.org/118/,2026-10-18T10:15:00Z,page,1.0
+openslr_hindi1111,audio_available,True,https://www.openslr.org/118/,2026-10-18T10:15:00Z,page,1.0
+openslr_hindi1111,audio_hours,1111.0,https://www.openslr.org/118/,2026-10-18T10:15:00Z,page,1.0
+openslr_hindi1111,format,WAV (8kHz telephone / 16kHz upsampled),https://www.openslr.org/118/,2026-10-18T10:15:00Z,page,1.0
+openslr_hindi1111,sample_rate_hz,8000,https://www.openslr.org/118/,2026-10-18T10:15:00Z,page,1.0
+openslr_hindi1111,speaker_count,Thousands of community callers across rural northern India,https://www.openslr.org/118/,2026-10-18T10:15:00Z,page,1.0
+openslr_hindi1111,has_role_labels,False (Spontaneous IVR citizen reports),https://www.openslr.org/118/,2026-10-18T10:15:00Z,page,1.0
+openslr_hindi1111,has_timestamps,True (Sentence/utterance aligned),https://www.openslr.org/118/,2026-10-18T10:15:00Z,page,1.0
+openslr_hindi1111,license,Open Challenge Research License,https://www.openslr.org/118/,2026-10-18T10:15:00Z,page,1.0
+openslr_hindi1111,access_type,open,https://www.openslr.org/118/,2026-10-18T10:15:00Z,page,1.0
+openslr_hindi1111,citation,"Gram Vaani / IIT Delhi, 2022",https://www.openslr.org/118/,2026-10-18T10:15:00Z,page,1.0
+pauleyc_radiology_iphone,dataset_name,Radiology Audio iPhone Test Samples,https://huggingface.co/datasets/pauleyc/radiology_audio_2_iphone,2026-10-18T10:15:00Z,readme,1.0
+pauleyc_radiology_iphone,audio_available,True,https://huggingface.co/datasets/pauleyc/radiology_audio_2_iphone,2026-10-18T10:15:00Z,api,1.0
+pauleyc_radiology_iphone,audio_hours,0.15,https://huggingface.co/datasets/pauleyc/radiology_audio_2_iphone,2026-10-18T10:15:00Z,readme,0.9
+pauleyc_radiology_iphone,format,Parquet embedded audio,https://huggingface.co/datasets/pauleyc/radiology_audio_2_iphone,2026-10-18T10:15:00Z,readme,1.0
+pauleyc_radiology_iphone,sample_rate_hz,16000,https://huggingface.co/datasets/pauleyc/radiology_audio_2_iphone,2026-10-18T10:15:00Z,readme,0.9
+pauleyc_radiology_iphone,speaker_count,1 radiologist (26 samples),https://huggingface.co/datasets/pauleyc/radiology_audio_2_iphone,2026-10-18T10:15:00Z,readme,1.0
+pauleyc_radiology_iphone,has_role_labels,False (Single radiologist dictation),https://huggingface.co/datasets/pauleyc/radiology_audio_2_iphone,2026-10-18T10:15:00Z,readme,1.0
+pauleyc_radiology_iphone,has_timestamps,False (Utterance transcription),https://huggingface.co/datasets/pauleyc/radiology_audio_2_iphone,2026-10-18T10:15:00Z,readme,1.0
+pauleyc_radiology_iphone,license,Unknown / Open on HF,https://huggingface.co/datasets/pauleyc/radiology_audio_2_iphone,2026-10-18T10:15:00Z,readme,0.8
+pauleyc_radiology_iphone,access_type,open,https://huggingface.co/datasets/pauleyc/radiology_audio_2_iphone,2026-10-18T10:15:00Z,api,1.0
+pauleyc_radiology_iphone,citation,"Pauley, C., 2024",https://huggingface.co/datasets/pauleyc/radiology_audio_2_iphone,2026-10-18T10:15:00Z,readme,0.8
+librispeech,dataset_name,LibriSpeech ASR Corpus,https://www.openslr.org/12/,2026-10-18T10:15:00Z,page,1.0
+librispeech,audio_available,True,https://www.openslr.org/12/,2026-10-18T10:15:00Z,page,1.0
+librispeech,audio_hours,1000.0,https://www.openslr.org/12/,2026-10-18T10:15:00Z,page,1.0
+librispeech,format,FLAC 16kHz,https://www.openslr.org/12/,2026-10-18T10:15:00Z,page,1.0
+librispeech,sample_rate_hz,16000,https://www.openslr.org/12/,2026-10-18T10:15:00Z,page,1.0
+librispeech,speaker_count,2484 speakers,https://www.openslr.org/12/,2026-10-18T10:15:00Z,page,1.0
+librispeech,has_role_labels,False (General read audiobooks),https://www.openslr.org/12/,2026-10-18T10:15:00Z,page,1.0
+librispeech,has_timestamps,True (Utterance alignments),https://www.openslr.org/12/,2026-10-18T10:15:00Z,page,1.0
+librispeech,license,CC-BY-4.0,https://www.openslr.org/12/,2026-10-18T10:15:00Z,page,1.0
+librispeech,access_type,open,https://www.openslr.org/12/,2026-10-18T10:15:00Z,page,1.0
+librispeech,citation,"Panayotov et al., ICASSP 2015",https://www.openslr.org/12/,2026-10-18T10:15:00Z,paper,1.0
+common_voice,dataset_name,Mozilla Common Voice,https://commonvoice.mozilla.org/,2026-10-18T10:15:00Z,page,1.0
+common_voice,audio_available,True,https://commonvoice.mozilla.org/,2026-10-18T10:15:00Z,page,1.0
+common_voice,audio_hours,30000.0,https://commonvoice.mozilla.org/,2026-10-18T10:15:00Z,page,0.9
+common_voice,format,MP3,https://commonvoice.mozilla.org/,2026-10-18T10:15:00Z,page,1.0
+common_voice,sample_rate_hz,48000,https://commonvoice.mozilla.org/,2026-10-18T10:15:00Z,page,1.0
+common_voice,speaker_count,100000+ crowd contributors worldwide,https://commonvoice.mozilla.org/,2026-10-18T10:15:00Z,page,1.0
+common_voice,has_role_labels,"False (Read sentences, general speech)",https://commonvoice.mozilla.org/,2026-10-18T10:15:00Z,page,1.0
+common_voice,has_timestamps,False (Sentence-level clips),https://commonvoice.mozilla.org/,2026-10-18T10:15:00Z,page,1.0
+common_voice,license,CC0,https://commonvoice.mozilla.org/,2026-10-18T10:15:00Z,page,1.0
+common_voice,access_type,open,https://commonvoice.mozilla.org/,2026-10-18T10:15:00Z,page,1.0
+common_voice,citation,"Ardila et al., ACL 2020",https://commonvoice.mozilla.org/,2026-10-18T10:15:00Z,paper,1.0
+aci_bench,dataset_name,ACI-BENCH: Benchmark for Ambient Clinical Intelligence,https://doi.org/10.6084/m9.figshare.22494601,2026-10-18T10:15:00Z,page,1.0
+aci_bench,audio_available,False (Text-only due to patient privacy),https://doi.org/10.6084/m9.figshare.22494601,2026-10-18T10:15:00Z,page,1.0
+aci_bench,audio_hours,0.0,https://github.com/wyim/aci-bench,2026-10-18T10:15:00Z,readme,1.0
+aci_bench,format,JSON / Text transcripts,https://github.com/wyim/aci-bench,2026-10-18T10:15:00Z,readme,1.0
+aci_bench,sample_rate_hz,None,https://github.com/wyim/aci-bench,2026-10-18T10:15:00Z,readme,1.0
+aci_bench,speaker_count,Multi-speaker transcripts (Doctor and Patient),https://github.com/wyim/aci-bench,2026-10-18T10:15:00Z,readme,1.0
+aci_bench,has_role_labels,True (Text dialogue doctor/patient roles),https://github.com/wyim/aci-bench,2026-10-18T10:15:00Z,readme,1.0
+aci_bench,has_timestamps,False (Text turn sequence only),https://github.com/wyim/aci-bench,2026-10-18T10:15:00Z,readme,1.0
+aci_bench,license,CC-BY-4.0,https://doi.org/10.6084/m9.figshare.22494601,2026-10-18T10:15:00Z,page,1.0
+aci_bench,access_type,open,https://doi.org/10.6084/m9.figshare.22494601,2026-10-18T10:15:00Z,page,1.0
+aci_bench,citation,"Yim et al., Nature Scientific Data 2023",https://doi.org/10.6084/m9.figshare.22494601,2026-10-18T10:15:00Z,paper,1.0
+mts_dialog,dataset_name,MTS-Dialog: Clinical Dialogue Summarization Benchmark,https://github.com/abachaa/MTS-Dialog,2026-10-18T10:15:00Z,readme,1.0
+mts_dialog,audio_available,False (Text-only dialogue corpus),https://github.com/abachaa/MTS-Dialog,2026-10-18T10:15:00Z,readme,1.0
+mts_dialog,audio_hours,0.0,https://github.com/abachaa/MTS-Dialog,2026-10-18T10:15:00Z,readme,1.0
+mts_dialog,format,CSV / JSON Text,https://github.com/abachaa/MTS-Dialog,2026-10-18T10:15:00Z,readme,1.0
+mts_dialog,sample_rate_hz,None,https://github.com/abachaa/MTS-Dialog,2026-10-18T10:15:00Z,readme,1.0
+mts_dialog,speaker_count,Doctor and Patient text turns (1700 dialogues),https://github.com/abachaa/MTS-Dialog,2026-10-18T10:15:00Z,readme,1.0
+mts_dialog,has_role_labels,True (Text Doctor and Patient turns),https://github.com/abachaa/MTS-Dialog,2026-10-18T10:15:00Z,readme,1.0
+mts_dialog,has_timestamps,False (Text dialogues),https://github.com/abachaa/MTS-Dialog,2026-10-18T10:15:00Z,readme,1.0
+mts_dialog,license,Research Use / Non-Commercial,https://github.com/abachaa/MTS-Dialog,2026-10-18T10:15:00Z,readme,1.0
+mts_dialog,access_type,open,https://github.com/abachaa/MTS-Dialog,2026-10-18T10:15:00Z,readme,1.0
+mts_dialog,citation,"Ben Abacha et al., ACL 2023",https://github.com/abachaa/MTS-Dialog,2026-10-18T10:15:00Z,paper,1.0
+whissleai_simulated_exams,dataset_name,WhissleAI Speech Simulated Medical Exams,https://huggingface.co/datasets/WhissleAI/speech-simulated-medical-exams,2026-10-18T10:15:00Z,api,1.0
+whissleai_simulated_exams,audio_available,True (Gated),https://huggingface.co/datasets/WhissleAI/speech-simulated-medical-exams,2026-10-18T10:15:00Z,api,1.0
+whissleai_simulated_exams,audio_hours,Unknown (Gated repository),https://huggingface.co/datasets/WhissleAI/speech-simulated-medical-exams,2026-10-18T10:15:00Z,api,0.9
+whissleai_simulated_exams,format,Parquet embedded audio,https://huggingface.co/datasets/WhissleAI/speech-simulated-medical-exams,2026-10-18T10:15:00Z,api,1.0
+whissleai_simulated_exams,sample_rate_hz,16000,https://huggingface.co/datasets/WhissleAI/speech-simulated-medical-exams,2026-10-18T10:15:00Z,api,0.8
+whissleai_simulated_exams,speaker_count,Multi-speaker (Simulated patient exams),https://huggingface.co/datasets/WhissleAI/speech-simulated-medical-exams,2026-10-18T10:15:00Z,api,0.9
+whissleai_simulated_exams,has_role_labels,True (Tagged speaker-segmentation and intent),https://huggingface.co/datasets/WhissleAI/speech-simulated-medical-exams,2026-10-18T10:15:00Z,api,0.9
+whissleai_simulated_exams,has_timestamps,True (Segmentation tags),https://huggingface.co/datasets/WhissleAI/speech-simulated-medical-exams,2026-10-18T10:15:00Z,api,0.9
+whissleai_simulated_exams,license,Other / Gated (HTTP 401),https://huggingface.co/datasets/WhissleAI/speech-simulated-medical-exams,2026-10-18T10:15:00Z,api,1.0
+whissleai_simulated_exams,access_type,gated,https://huggingface.co/datasets/WhissleAI/speech-simulated-medical-exams,2026-10-18T10:15:00Z,api,1.0
+whissleai_simulated_exams,citation,"Whissle AI, 2024",https://huggingface.co/datasets/WhissleAI/speech-simulated-medical-exams,2026-10-18T10:15:00Z,api,0.9
+physionet_egd_cxr,dataset_name,Eye Gaze Data for Chest X-rays (Dictation Audio),https://physionet.org/content/egd-cxr/1.0.0/,2026-10-18T10:15:00Z,page,1.0
+physionet_egd_cxr,audio_available,True (Credentialed),https://physionet.org/content/egd-cxr/1.0.0/,2026-10-18T10:15:00Z,page,1.0
+physionet_egd_cxr,audio_hours,5.0,https://physionet.org/content/egd-cxr/1.0.0/,2026-10-18T10:15:00Z,page,0.85
+physionet_egd_cxr,format,WAV and MP3,https://physionet.org/content/egd-cxr/1.0.0/,2026-10-18T10:15:00Z,page,1.0
+physionet_egd_cxr,sample_rate_hz,16000,https://physionet.org/content/egd-cxr/1.0.0/,2026-10-18T10:15:00Z,page,0.9
+physionet_egd_cxr,speaker_count,1 radiologist reading 1083 CXRs,https://physionet.org/content/egd-cxr/1.0.0/,2026-10-18T10:15:00Z,page,1.0
+physionet_egd_cxr,has_role_labels,False (Radiologist single dictation),https://physionet.org/content/egd-cxr/1.0.0/,2026-10-18T10:15:00Z,page,1.0
+physionet_egd_cxr,has_timestamps,True (Word and phrase level timestamps in JSON),https://physionet.org/content/egd-cxr/1.0.0/,2026-10-18T10:15:00Z,page,1.0
+physionet_egd_cxr,license,PhysioNet Credentialed Health Data License 1.5.0,https://physionet.org/content/egd-cxr/1.0.0/,2026-10-18T10:15:00Z,page,1.0
+physionet_egd_cxr,access_type,credentialed,https://physionet.org/content/egd-cxr/1.0.0/,2026-10-18T10:15:00Z,page,1.0
+physionet_egd_cxr,citation,"Karargyris et al., PhysioNet 2021",https://physionet.org/content/egd-cxr/1.0.0/,2026-10-18T10:15:00Z,page,1.0
+physionet_b2ai_voice,dataset_name,NIH Bridge2AI-Voice Adult Cohort,https://physionet.org/content/b2ai-voice/,2026-10-18T10:15:00Z,page,1.0
+physionet_b2ai_voice,audio_available,True (Credentialed via Synapse),https://physionet.org/content/b2ai-voice/,2026-10-18T10:15:00Z,page,1.0
+physionet_b2ai_voice,audio_hours,50.0,https://physionet.org/content/b2ai-voice/,2026-10-18T10:15:00Z,page,0.8
+physionet_b2ai_voice,format,WAV,https://physionet.org/content/b2ai-voice/,2026-10-18T10:15:00Z,page,1.0
+physionet_b2ai_voice,sample_rate_hz,44100 / 16000,https://physionet.org/content/b2ai-voice/,2026-10-18T10:15:00Z,page,0.9
+physionet_b2ai_voice,speaker_count,Hundreds of adult patients and healthy controls,https://physionet.org/content/b2ai-voice/,2026-10-18T10:15:00Z,page,1.0
+physionet_b2ai_voice,has_role_labels,False (Acoustic biomarker vocal tasks),https://physionet.org/content/b2ai-voice/,2026-10-18T10:15:00Z,page,1.0
+physionet_b2ai_voice,has_timestamps,False (Task-level recordings),https://physionet.org/content/b2ai-voice/,2026-10-18T10:15:00Z,page,1.0
+physionet_b2ai_voice,license,PhysioNet Credentialed / DUA,https://physionet.org/content/b2ai-voice/,2026-10-18T10:15:00Z,page,1.0
+physionet_b2ai_voice,access_type,credentialed,https://physionet.org/content/b2ai-voice/,2026-10-18T10:15:00Z,page,1.0
+physionet_b2ai_voice,citation,"Bridge2AI Consortium, 2024",https://physionet.org/content/b2ai-voice/,2026-10-18T10:15:00Z,page,1.0
+defined_ai_doctor_patient,dataset_name,Defined.ai English Doctor-Patient Conversations,https://www.defined.ai/,2026-10-18T10:15:00Z,page,1.0
+defined_ai_doctor_patient,audio_available,True (Commercial),https://www.defined.ai/,2026-10-18T10:15:00Z,page,1.0
+defined_ai_doctor_patient,audio_hours,2000.0,https://www.defined.ai/,2026-10-18T10:15:00Z,page,0.9
+defined_ai_doctor_patient,format,WAV 16kHz uncompressed,https://www.defined.ai/,2026-10-18T10:15:00Z,page,0.9
+defined_ai_doctor_patient,sample_rate_hz,16000,https://www.defined.ai/,2026-10-18T10:15:00Z,page,0.9
+defined_ai_doctor_patient,speaker_count,Hundreds of live doctor-patient dyads,https://www.defined.ai/,2026-10-18T10:15:00Z,page,0.9
+defined_ai_doctor_patient,has_role_labels,True (Doctor and patient speaker labels),https://www.defined.ai/,2026-10-18T10:15:00Z,page,1.0
+defined_ai_doctor_patient,has_timestamps,True (Human-generated time-aligned transcripts),https://www.defined.ai/,2026-10-18T10:15:00Z,page,1.0
+defined_ai_doctor_patient,license,Commercial Enterprise License,https://www.defined.ai/,2026-10-18T10:15:00Z,page,1.0
+defined_ai_doctor_patient,access_type,commercial,https://www.defined.ai/,2026-10-18T10:15:00Z,page,1.0
+defined_ai_doctor_patient,citation,DefinedCrowd / Defined.ai Medical Speech Suite,https://www.defined.ai/,2026-10-18T10:15:00Z,page,0.9
+displace_2026,dataset_name,DISPLACE-M 2026: Multilingual Medical Conversational Challenge,https://displace2026.github.io/,2026-10-24T12:00:00Z,readme,1.0
+displace_2026,audio_available,True (Encrypted archives on Hugging Face; requires challenge password),https://huggingface.co/datasets/Displace-M/Displace2026,2026-10-24T12:00:00Z,api,1.0
+displace_2026,audio_hours,35.0,https://displace2026.github.io/,2026-10-24T12:00:00Z,page,0.9
+displace_2026,format,WAV (Zip encrypted),https://huggingface.co/datasets/Displace-M/Displace2026,2026-10-24T12:00:00Z,api,1.0
+displace_2026,sample_rate_hz,16000,https://displace2026.github.io/,2026-10-24T12:00:00Z,page,1.0
+displace_2026,speaker_count,"Multi-speaker (ASHAs, Patients, Family members)",https://displace2026.github.io/,2026-10-24T12:00:00Z,page,1.0
+displace_2026,has_role_labels,True (Healthcare worker vs. Patient topic and dialogue roles),https://displace2026.github.io/,2026-10-24T12:00:00Z,page,1.0
+displace_2026,has_timestamps,True (RTTM format turn boundaries),https://huggingface.co/datasets/Displace-M/Displace2026,2026-10-24T12:00:00Z,api,1.0
+displace_2026,license,Challenge Agreement (IISc LEAP Lab),https://displace2026.github.io/docs/Terms_and_Conditions_DISPLACE_2026.pdf,2026-10-24T12:00:00Z,page,1.0
+displace_2026,access_type,restricted,https://displace2026.github.io/#registration,2026-10-24T12:00:00Z,page,1.0
+displace_2026,citation,"LEAP Lab IISc Bangalore, DISPLACE-M 2026 / Interspeech 2026",https://displace2026.github.io/,2026-10-24T12:00:00Z,page,1.0

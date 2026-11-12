@@ -1,0 +1,11 @@
+condition,nominal_db,measured_mean,measured_min,measured_max,min_peak_scale
+noise_snr10,10.0,10.0,10.0,10.0,0.96
+noise_snr20,20.0,20.0,20.0,20.0,1.0
+noise_snr5,5.0,5.0,5.0,5.0,0.69
+opd_sir5_snr10,,4.06,3.76,4.42,0.8
+talker_in_sir0,0.0,0.02,-0.01,0.08,0.61
+talker_in_sir10,10.0,9.89,9.79,9.96,0.93
+talker_in_sir5,5.0,4.98,4.93,5.04,0.78
+talker_sir0,0.0,-0.04,-0.2,0.16,0.62
+talker_sir10,10.0,9.96,9.8,10.16,0.94
+talker_sir5,5.0,4.96,4.8,5.16,0.81

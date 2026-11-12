@@ -1,0 +1,9 @@
+split,dataset,items,hours,speakers,median_s,words
+dev,PriMock57 consultations,11,1.67,,579.4,15955
+test,PriMock57 consultations,46,6.96,,551.8,65328
+dev,PriMock57 utterances,1285,1.62,,3.4,15955
+test,PriMock57 utterances,5266,6.65,,3.4,65328
+dev,Eka Medical ASR (en),735,1.63,11.0,4.3,11285
+test,Eka Medical ASR (en),2884,6.78,45.0,5.0,43406
+dev,Svarah,1351,2.18,19.0,5.0,15267
+test,Svarah,5305,7.44,96.0,4.0,54207

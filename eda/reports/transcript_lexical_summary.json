@@ -1,0 +1,668 @@
+{
+  "primock57": {
+    "total_textgrid_files": 114,
+    "total_utterance_intervals": 7109,
+    "doctor_utterance_count": 3675,
+    "patient_utterance_count": 3434,
+    "total_clinical_notes": 57,
+    "total_tokens": 89147,
+    "unique_vocab_size": 3166,
+    "type_token_ratio_ttr": 0.03551437513320695,
+    "hapax_legomena_count": 1135,
+    "word_count": {
+      "mean": 12.540019693346462,
+      "median": 9.0,
+      "min": 0,
+      "max": 97,
+      "std": 12.91441396708619
+    },
+    "char_count": {
+      "mean": 67.64650443100295,
+      "median": 47.0,
+      "min": 1,
+      "max": 546,
+      "std": 65.88388685728631
+    },
+    "doctor_total_words": 53122,
+    "patient_total_words": 36025,
+    "top_25_words": [
+      [
+        "you",
+        3817
+      ],
+      [
+        "i",
+        3761
+      ],
+      [
+        "and",
+        2369
+      ],
+      [
+        "um",
+        2250
+      ],
+      [
+        "ok",
+        2056
+      ],
+      [
+        "it",
+        2013
+      ],
+      [
+        "the",
+        1907
+      ],
+      [
+        "a",
+        1766
+      ],
+      [
+        "that",
+        1700
+      ],
+      [
+        "to",
+        1629
+      ],
+      [
+        "s",
+        1585
+      ],
+      [
+        "uh",
+        1541
+      ],
+      [
+        "of",
+        1384
+      ],
+      [
+        "so",
+        1266
+      ],
+      [
+        "yeah",
+        1197
+      ],
+      [
+        "like",
+        1075
+      ],
+      [
+        "your",
+        1054
+      ],
+      [
+        "no",
+        962
+      ],
+      [
+        "have",
+        932
+      ],
+      [
+        "any",
+        885
+      ],
+      [
+        "in",
+        851
+      ],
+      [
+        "is",
+        817
+      ],
+      [
+        "just",
+        816
+      ],
+      [
+        "do",
+        781
+      ],
+      [
+        "can",
+        721
+      ]
+    ],
+    "clinical_keywords_frequency": {
+      "pain": 227,
+      "headache": 79,
+      "fever": 50,
+      "cough": 69,
+      "diarrhea": 26,
+      "vomiting": 58,
+      "asthma": 57,
+      "inhaler": 26,
+      "paracetamol": 33,
+      "ibuprofen": 42,
+      "blood": 120,
+      "chest": 101,
+      "throat": 45,
+      "stomach": 10,
+      "rash": 27,
+      "infection": 38,
+      "antibiotics": 26,
+      "dose": 7,
+      "tablet": 10,
+      "doctor": 78,
+      "hospital": 33,
+      "prescription": 16
+    }
+  },
+  "eka_medical_asr": {
+    "total_english_records": 3619,
+    "total_tokens": 54322,
+    "unique_vocab_size": 6924,
+    "type_token_ratio_ttr": 0.12746217002319501,
+    "hapax_legomena_count": 3688,
+    "word_count": {
+      "mean": 15.010223818734458,
+      "median": 5.0,
+      "min": 1,
+      "max": 95,
+      "std": 15.203025230486288
+    },
+    "char_count": {
+      "mean": 92.8369715390992,
+      "median": 30.0,
+      "min": 2,
+      "max": 457,
+      "std": 94.50157466141302
+    },
+    "recording_contexts": {
+      "conversation": 110,
+      "narration_entity": 2206,
+      "narration_sentence": 1303
+    },
+    "type_concepts": {
+      "misc_medical": 396,
+      "clinical_findings": 962,
+      "advices": 201,
+      "drugs": 1766,
+      "diagnostics": 294
+    },
+    "top_25_words": [
+      [
+        "the",
+        2125
+      ],
+      [
+        "and",
+        1721
+      ],
+      [
+        "of",
+        1664
+      ],
+      [
+        "is",
+        1412
+      ],
+      [
+        "to",
+        1374
+      ],
+      [
+        "a",
+        1351
+      ],
+      [
+        "tablet",
+        1002
+      ],
+      [
+        "in",
+        895
+      ],
+      [
+        "it",
+        663
+      ],
+      [
+        "used",
+        651
+      ],
+      [
+        "with",
+        537
+      ],
+      [
+        "treat",
+        396
+      ],
+      [
+        "medicine",
+        385
+      ],
+      [
+        "pain",
+        374
+      ],
+      [
+        "by",
+        373
+      ],
+      [
+        "for",
+        355
+      ],
+      [
+        "blood",
+        345
+      ],
+      [
+        "patient",
+        335
+      ],
+      [
+        "was",
+        296
+      ],
+      [
+        "as",
+        276
+      ],
+      [
+        "value",
+        270
+      ],
+      [
+        "an",
+        234
+      ],
+      [
+        "medicines",
+        233
+      ],
+      [
+        "that",
+        220
+      ],
+      [
+        "not",
+        214
+      ]
+    ],
+    "top_drugs": [
+      [
+        "antibiotic",
+        78
+      ],
+      [
+        "statins",
+        28
+      ],
+      [
+        "penicillin",
+        23
+      ],
+      [
+        "antifungals",
+        19
+      ],
+      [
+        "anti-diabetic drugs",
+        18
+      ],
+      [
+        "amlodipine",
+        16
+      ],
+      [
+        "dolo 650",
+        15
+      ],
+      [
+        "antihistamines",
+        13
+      ],
+      [
+        "thyroxine",
+        12
+      ],
+      [
+        "metformin",
+        12
+      ],
+      [
+        "steroids",
+        12
+      ],
+      [
+        "alcohol",
+        12
+      ],
+      [
+        "tablet",
+        11
+      ],
+      [
+        "calcium channel blocker",
+        11
+      ],
+      [
+        "beta-blockers",
+        10
+      ],
+      [
+        "anti-epileptic",
+        9
+      ],
+      [
+        "sun pharmaceutical industries limited",
+        7
+      ],
+      [
+        "azithromycin",
+        6
+      ],
+      [
+        "allegra",
+        6
+      ],
+      [
+        "cipla limited",
+        6
+      ]
+    ],
+    "top_clinical_findings": [
+      [
+        "pain",
+        94
+      ],
+      [
+        "high blood pressure",
+        92
+      ],
+      [
+        "swelling",
+        65
+      ],
+      [
+        "bacterial infections",
+        63
+      ],
+      [
+        "type 2 diabetes mellitus",
+        57
+      ],
+      [
+        "hypertension",
+        55
+      ],
+      [
+        "diabetes",
+        53
+      ],
+      [
+        "stroke",
+        53
+      ],
+      [
+        "blood pressure",
+        51
+      ],
+      [
+        "heart attack",
+        47
+      ],
+      [
+        "pneumonia",
+        43
+      ],
+      [
+        "infections",
+        40
+      ],
+      [
+        "fever",
+        38
+      ],
+      [
+        "urinary tract",
+        33
+      ],
+      [
+        "heart disease",
+        33
+      ]
+    ],
+    "top_advices": [
+      [
+        "three times a day",
+        9
+      ],
+      [
+        "3 times a day",
+        6
+      ],
+      [
+        "with or without food",
+        5
+      ],
+      [
+        "diet",
+        5
+      ],
+      [
+        "exercise",
+        5
+      ],
+      [
+        "once in a day",
+        4
+      ],
+      [
+        "thrice a day",
+        4
+      ],
+      [
+        "6 days",
+        4
+      ],
+      [
+        "7 days",
+        4
+      ],
+      [
+        "5 days",
+        4
+      ]
+    ],
+    "top_diagnostics": [
+      [
+        "blood sugar",
+        24
+      ],
+      [
+        "mri",
+        10
+      ],
+      [
+        "physical examination",
+        9
+      ],
+      [
+        "chest x-ray",
+        8
+      ],
+      [
+        "x-ray",
+        7
+      ],
+      [
+        "ultrasound",
+        7
+      ],
+      [
+        "ct",
+        7
+      ],
+      [
+        "magnetic resonance imaging",
+        6
+      ],
+      [
+        "triglycerides",
+        6
+      ],
+      [
+        "biopsy",
+        5
+      ]
+    ],
+    "dosage_units_frequency": {
+      "mg": 140,
+      "ml": 19,
+      "tablet": 1002,
+      "tablets": 1,
+      "capsule": 114,
+      "capsules": 3,
+      "syrup": 15,
+      "drops": 7,
+      "od": 14,
+      "bd": 3,
+      "sos": 4,
+      "daily": 17,
+      "times": 27
+    }
+  },
+  "svarah": {
+    "total_records": 6656,
+    "total_tokens": 69593,
+    "unique_vocab_size": 8623,
+    "type_token_ratio_ttr": 0.12390613998534335,
+    "hapax_legomena_count": 4182,
+    "word_count": {
+      "mean": 10.455679086538462,
+      "median": 9.0,
+      "min": 1,
+      "max": 75,
+      "std": 8.83515334870264
+    },
+    "char_count": {
+      "mean": 59.21619591346154,
+      "median": 51.0,
+      "min": 1,
+      "max": 392,
+      "std": 50.820328741690965
+    },
+    "top_25_words": [
+      [
+        "the",
+        3502
+      ],
+      [
+        "and",
+        2222
+      ],
+      [
+        "of",
+        1957
+      ],
+      [
+        "in",
+        1724
+      ],
+      [
+        "to",
+        1515
+      ],
+      [
+        "is",
+        1350
+      ],
+      [
+        "a",
+        1223
+      ],
+      [
+        "i",
+        1097
+      ],
+      [
+        "are",
+        825
+      ],
+      [
+        "it",
+        765
+      ],
+      [
+        "for",
+        683
+      ],
+      [
+        "that",
+        671
+      ],
+      [
+        "my",
+        634
+      ],
+      [
+        "with",
+        454
+      ],
+      [
+        "can",
+        446
+      ],
+      [
+        "there",
+        431
+      ],
+      [
+        "on",
+        425
+      ],
+      [
+        "or",
+        424
+      ],
+      [
+        "have",
+        420
+      ],
+      [
+        "as",
+        406
+      ],
+      [
+        "you",
+        395
+      ],
+      [
+        "so",
+        363
+      ],
+      [
+        "we",
+        356
+      ],
+      [
+        "which",
+        323
+      ],
+      [
+        "all",
+        310
+      ]
+    ],
+    "clinical_terms_in_svarah": {
+      "doctor": 3,
+      "patient": 1,
+      "medicine": 6,
+      "fever": 1,
+      "cough": 2,
+      "pain": 1,
+      "hospital": 10,
+      "clinic": 4,
+      "diagnosis": 3
+    },
+    "domain_assessment": "General Indian English (geography, culture, history, civic topics) with near-zero clinical terminology."
+  }
+}

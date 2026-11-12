@@ -1,0 +1,3 @@
+speaker_role,utterances,median_words,median_s,unsure_pct,unintelligible_pct,words_per_min
+doctor,3404,11.0,4.1,15.0,19.4,173.6
+patient,3147,6.0,2.5,15.1,14.8,150.5

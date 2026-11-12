@@ -1,0 +1,8 @@
+# shared by every environment: data loading, scoring, EDA
+numpy
+pandas
+soundfile
+pyarrow
+jiwer>=3.0
+matplotlib
+wordfreq

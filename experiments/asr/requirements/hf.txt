@@ -1,0 +1,7 @@
+# Whisper large-v3 / turbo, Parrotlet, IndicConformer, IndicWhisper
+-r base.txt
+torch
+transformers>=4.45,<5
+accelerate
+librosa
+torchaudio

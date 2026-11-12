@@ -1,0 +1,5 @@
+641b85d0bed27ce309e389de4aa4eba0  eka_en/manifest.csv
+08dfa708f842b9965a34fd74108f6451  svarah/manifest.csv
+cbb9631b5f138a4f103295a5d04cb999  primock57/manifest_consultations.csv
+9eb6a6b1ff4a048e4eb86f0a3fbba13c  primock57/manifest_utterances.csv
+tolerance-checked  primock57/manifest_noisy.csv

@@ -1,0 +1,9 @@
+sample_id,dataset_id,relative_audio_path,audio_format,sample_rate_hz,duration_seconds,channels,speaker_id,speaker_role,transcript_clean,transcript_medical_terms,has_soap_target,soap_note_path,split,split_leakage_risk
+sample_001_doc,primock57,audio/day1_consultation01_doctor.wav,wav,16000,457.92,1,doc_01,doctor,"Good morning, how can I help you today?","None",True,notes/day1_consultation01.json,test,None
+sample_001_pat,primock57,audio/day1_consultation01_patient.wav,wav,16000,457.92,1,pat_01,patient,"I've been experiencing a persistent dry cough and mild fever.","cough, fever",True,notes/day1_consultation01.json,test,None
+sample_002_dialog,medial_speech,dialogues/dialogue_104/turn_01.wav,wav,16000,8.45,1,spk_doctor,doctor,"Can you describe the pain in your chest?","chest pain",False,None,dev,None
+sample_003_eka,eka_medical_asr,audio/en_doctor_3491.wav,wav,16000,6.12,1,doc_in_12,doctor,"Advised Paracetamol 650 milligram TDS for three days.","Paracetamol 650 mg",False,None,test,None
+sample_004_dopaco,synth_dopaco,shards/dialog_0042.opus,opus,16000,542.10,1,persona_dr_07,doctor,"Your blood test results show elevated LDL cholesterol.","LDL cholesterol",True,soap/soap_0042.txt,dev,None
+sample_005_modulate,modulate_synthetic_dictation,audio/note_108_clean.wav,wav,16000,42.50,1,kokoro_voice_03,doctor,"Patient diagnosed with acute exacerbation of COPD. Plan start prednisone forty milligrams.","COPD, prednisone 40 mg",True,None,test,None
+sample_006_ami,ami_corpus,audio/EN2001a_Headset-0.wav,wav,16000,1200.0,1,AMI_FEE001,project_manager,"Okay, let's start the functional design review.","None",False,None,test,None
+sample_007_voxconv,voxconverse,audio/voxconverse_dev_001.wav,wav,16000,320.4,1,spk_01,unknown,"I think we need to look at the clinical statistics.","None",False,None,dev,None

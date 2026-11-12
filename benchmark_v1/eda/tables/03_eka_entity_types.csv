@@ -1,0 +1,6 @@
+type,conversation,narration_entity,narration_sentence,total
+clinical_findings,177,852,4586,5615
+drugs,140,1097,1267,2504
+misc_medical,20,0,1125,1145
+diagnostics,51,56,914,1021
+advices,130,201,45,376
